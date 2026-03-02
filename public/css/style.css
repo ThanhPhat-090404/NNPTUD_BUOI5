@@ -1,0 +1,27 @@
+body {
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.avatar-sm {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.badge-status.active {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.badge-status.inactive {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0.75rem;
+}
